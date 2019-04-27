@@ -16,7 +16,7 @@ memory | 8G
 
 ## 系统安装
 ### 安装前检查
-1:黑苹果加载显卡后只支持hdmi接口输出。</br>
+<br/>1:黑苹果加载显卡后只支持hdmi接口输出。</br>
 2:请确定当前的磁盘分区表格式为EFI以及当前操作系统的引导方式为EFI，因为苹果系统只支持EFI引导
 
 ### 安装U盘制作
@@ -25,13 +25,13 @@ windows上使用TransMac Ultraiso 等软件将苹果的dmg镜像写入到U盘，
 Linux上（以Ubuntu为例）:sudo apt install dmg2img。 使用dmg2img命令将dmg镜像转成img格式后使用dd命令或者直接双击img文件写入U盘
 
 ### 安装镜像bug修正
-该安装包中默认clover启动时间为0，会造成很多问题。 在windows上通过diskgennius工具将U盘EFI\CLover\config.plist文件中boot项目中的启动等待时间设置为0.  Linux上可以挂在U盘的EFI分区按照相同方法设置。
+该安装包中默认clover启动时间为0，会造成很多问题。 在windows上通过diskgennius工具将U盘EFI\CLover\config.plist文件中boot项目中的启动等待时间设置为10.  Linux上可以挂在U盘的EFI分区按照相同方法设置。
 
 ### 安装过程
 重启按F12。选择EFI模式的U盘引导启动。进入变色龙选择画面后，按o键，选Config中的HD530的那个Config启动，正常格式化一个分区为苹果格式，正常安装，重启后继续F12进U盘，Config依旧HD530，选安装到的那个分区启动，继续完成安装，第二次启动后可能装了几秒就自动重新启动，不要慌，再来一次即可安装完成。
 
 ### 显卡驱动
-装好后会发现有线网卡正常驱动，声卡正常驱动，显卡没驱动，蓝牙没驱动，wifi没驱动。</br>
+<br/>装好后会发现有线网卡正常驱动，声卡正常驱动，显卡没驱动，蓝牙没驱动，wifi没驱动。</br>
 显卡驱动请严格按照https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html 给缓冲帧打补丁的部分操作，不要进行任何自作聪明的操作，即可驱动显卡，需要的CloverConfigurator，Hackintool工具可以在本github项目中下载，也可以在那个网页作者的博客中找找。
 
 ### NTFS磁盘读写
