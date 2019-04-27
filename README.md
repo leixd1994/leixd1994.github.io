@@ -1,9 +1,7 @@
 ## 欢迎来到leixd1994的博客
 
 Dell vostro 3667 黑苹果安装日记
-You can use the [editor on GitHub](https://github.com/leixd1994/leixd1994.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+黑苹果的安装，个人感觉版本的选择很重要，有些网上的黑苹果版本，压根一次都无法启动，我比较幸运，第一次就下对了版本。正常装上后会发现没有显卡
 
 ### Markdown
 
