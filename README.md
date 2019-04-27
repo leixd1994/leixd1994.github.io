@@ -12,6 +12,7 @@ memory | 8G
 ## 系统选择
 所采用的黑苹果镜像来自高校内的PT网站：https://npupt.com/details.php?id=144333&hit=1 不方便下载的可以联系我，我传到百度盘。
 ![黑苹果镜像](/pic1.png)
+Format: ![Alt Text](url)
 
 
 
