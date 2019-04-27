@@ -4,7 +4,7 @@
 ## Dell vostro 3667 系统硬件
 
 CPU | Intel i3 6100
---------------------
+----|---------------
 GPU | intel hd 530
 memory | 8G
 
