@@ -20,7 +20,7 @@ memory | 8G
 2:请确定当前的磁盘分区表格式为EFI以及当前操作系统的引导方式为EFI，因为苹果系统只支持EFI引导
 
 ### 安装U盘制作
-windows上使用TransMac Ultraiso 等软件将苹果的dmg镜像写入到U盘，注意U盘中的所有数据都会被丢失</br>
+windows上使用TransMac Ultraiso 等软件将苹果的dmg镜像写入到U盘，注意U盘中的所有数据都会被丢失<br/>
 
 Linux上（以Ubuntu为例）:sudo apt install dmg2img。 使用dmg2img命令将dmg镜像转成img格式后使用dd命令或者直接双击img文件写入U盘
 
