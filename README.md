@@ -1,5 +1,6 @@
 ## 欢迎来到leixd1994的博客
 
+Dell vostro 3667 黑苹果安装日记
 You can use the [editor on GitHub](https://github.com/leixd1994/leixd1994.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
