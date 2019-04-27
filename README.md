@@ -14,6 +14,12 @@ memory | 8G
 ![黑苹果镜像](/pic1.png)
 Format: ![Alt Text](url)
 
+## 系统安装
+### 安装U盘制作
+windows上可以使用TransMac Ultraiso 等软件将苹果的dmg镜像写入到U盘，注意U盘中的所有数据都会被丢失\n
+test
+
+
 
 
 
