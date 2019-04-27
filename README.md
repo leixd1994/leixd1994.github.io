@@ -36,6 +36,8 @@ Linux上（以Ubuntu为例）| sudo apt install dmg2img。 使用dmg2img命令�
 ### NTFS磁盘读写
 即使是白苹果，一样无法写NTFS，需要个免费的小软件解决：https://mounty.app
 
+### 黑苹果展示
+![黑苹果展示](/pic2.png)
 
 
 
